@@ -10,12 +10,13 @@ body {
   flex-direction: column;
   height: 100vh;
   font-family: Poppins, sans-serif;
-  background: linear-gradient(to bottom, #ff5e88, #ff9966);
+  background: #ffebee;
 }
 h1 {
   font-weight: 600;
+  font-size: 3rem;
   text-align: center;
-  color: #fff;
+  color: #c62828;
   margin-block: 2rem;
 }
 h3 {
