@@ -9,10 +9,20 @@
   main {
     display: grid;
     padding: 3rem;
-    background:pink;
+    background:white;
   }
   
-  
+  body {
+    align-content: center;
+    padding: 3rem calc((100vw - 1300px) / 2);
+
+  }
+
+  .body p {
+    margin-bottom: 0.35rem;
+    font-size: 4 rem;
+    text-align: justify;
+  }
   
     @media (min-width: 769px) and (max-width: 1024px) {
       footer {
@@ -28,3 +38,4 @@
         max-width: 50%; 
       }
     }
+}
