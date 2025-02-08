@@ -67,7 +67,7 @@ a.image-link p {
 
 /* Add hover effect for the <p> tag */
 a.image-link:hover p {
-    color: #c62828; /* Darker pink on hover */
+    color: #6d0a0a; /* Darker pink on hover */
 }
 
 /* Responsive design for smaller screens */
