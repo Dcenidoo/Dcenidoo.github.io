@@ -89,7 +89,7 @@ h3 {
   font-weight: 600;
 }
 .dates li.today {
-  color: #fff;
+  color: #000;
 }
 .dates li.today::before {
   content: none;
