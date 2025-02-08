@@ -44,6 +44,21 @@ main img {
     border-color: #e91e63;
 }
 
+main footer {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+main footer button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: #e91e63;
+    color: #e91e63;
+    background: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .hero-container h1 {
