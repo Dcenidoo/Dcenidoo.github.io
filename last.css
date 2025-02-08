@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    padding: 2rem; /* Add some padding around the body */
+    background: #ffebee; /* Add a light pink background for a Valentine's theme */
+}
+
+.container {
+    margin-top: 3rem;
+    text-align: center; /* Center the text inside the hero section */
+    margin-bottom: 3rem; /* Add spacing below the hero section */
+}
+
+.container h1 {
+    font-size: 5rem; /* Increase the font size for the heading */
+    color: #c62828; /* Red color for Valentine's theme */
+    margin-bottom: 1rem; /* Add spacing below the heading */
+}
+
+
+main {
+    text-align: center; /* Center the image */
+    padding: 2rem; /* Add padding around the main section */
+    background: white; /* White background for the main section */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border: solid #e91e63;
+}
+
+main img {
+    max-width:  768px; /* Ensure the image doesn't overflow */
+    max-height: 768px;
+    border-radius: 10px; /* Add rounded corners to the image */
+    border-color: #e91e63;
+}
+
+footer {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex; /* Use flexbox to align buttons */
+    gap: 4rem; /* Add spacing between buttons */
+}
+
+footer button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: 3px solid #e91e63; /* Add a border to the buttons */
+    color: #e91e63; /* Text color */
+    background: white; /* Button background color */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add hover effect for the buttons */
+footer button:hover {
+    background-color: #e91e63; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    main {
+        padding: 1rem; /* Less padding on smaller screens */
+    }
+}
