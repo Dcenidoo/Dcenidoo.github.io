@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    padding: 2rem; /* Add some padding around the body */
+    background: #ffebee; /* Add a light pink background for a Valentine's theme */
+}
+
+.container {
+    text-align: center; /* Center the text inside the container */
+    margin-bottom: 2rem; /* Add spacing below the container */
+}
+
+.container h1 {
+    font-size: 3rem; /* Increase the font size for the heading */
+    color: #c62828; /* Red color for Valentine's theme */
+    margin-bottom: 1rem; /* Add spacing below the heading */
+}
+
+.container p {
+    font-size: 1.5rem; /* Increase the font size for the paragraph */
+    color: #e91e63; /* Pink color for Valentine's theme */
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(2, 1fr); /* 2 rows */
+    gap: 1.5rem; /* Spacing between grid items */
+    max-width: 800px; /* Limit the gallery width */
+    margin: 0 auto; /* Center the gallery */
+}
+
+.gallery-item {
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Make the link behave as a block element */
+    border: 2px solid #e91e63; /* Add a border around the images */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure the image stays within the border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+.gallery-item img {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove extra space below the image */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .container p {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+
+    .gallery {
+        grid-template-columns: 1fr; /* Stack images vertically on smaller screens */
+        gap: 1rem; /* Reduce spacing between images */
+    }
+}
