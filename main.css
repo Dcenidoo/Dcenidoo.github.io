@@ -47,13 +47,13 @@ footer {
     margin-top: 2rem;
     margin-bottom: 4rem;
     display: flex; /* Use flexbox to align buttons */
-    gap: 2rem; /* Add spacing between buttons */
+    gap: 4rem; /* Add spacing between buttons */
 }
 
 footer button {
     padding: 1rem 2rem;
     font-size: 1.2rem;
-    border: 2px solid #e91e63; /* Add a border to the buttons */
+    border: 3px solid #e91e63; /* Add a border to the buttons */
     color: #e91e63; /* Text color */
     background: white; /* Button background color */
     cursor: pointer;
@@ -65,6 +65,7 @@ footer button {
 footer button:hover {
     background-color: #e91e63; /* Change background color on hover */
     color: white; /* Change text color on hover */
+}
 
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
