@@ -24,7 +24,6 @@ body {
     font-size: 3rem; /* Increase the font size for the heading */
     color: #c62828; /* Red color for Valentine's theme */
     margin-bottom: 4rem; /* Add spacing below the heading */
-    max-width: 70vh;
 }
 
 .hero-container p {
