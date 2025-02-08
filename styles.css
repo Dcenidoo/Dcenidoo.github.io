@@ -46,6 +46,11 @@ main img {
     border-color: #e91e63;
 }
 
+main p {
+    font-size: 1.5rem; /* Increase the font size for the paragraph */
+    color: #e91e63; /* Pink color for Valentine's theme */
+    padding: 20px;
+}
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .hero-container h1 {
