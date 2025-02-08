@@ -99,9 +99,45 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background: #000;
   border-radius: 50%;
   z-index: -1;
 }
 .dates li.inactive {
   color: #ccc;
+}
+
+footer {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex; /* Use flexbox to align buttons */
+    gap: 4rem; /* Add spacing between buttons */
+}
+
+footer button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: 3px solid #e91e63; /* Add a border to the buttons */
+    color: #e91e63; /* Text color */
+    background: white; /* Button background color */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Add hover effect for the buttons */
+footer button:hover {
+    background-color: #e91e63; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    body h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    main {
+        padding: 1rem; /* Less padding on smaller screens */
+    }
 }
