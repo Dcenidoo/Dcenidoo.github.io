@@ -49,6 +49,11 @@ main img {
     border: solid #e91e63; /* Add a border around the image */
 }
 
+a.image-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+}
+
 a.image-link p {
     font-size: 1.5rem; /* Increase the font size for the paragraph */
     font-style: bold;

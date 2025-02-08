@@ -34,6 +34,7 @@ main {
     background: white; /* White background for the main section */
     border-radius: 10px; /* Add rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    border: solid #e91e63;
 }
 
 main img {
