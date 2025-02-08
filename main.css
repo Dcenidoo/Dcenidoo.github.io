@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    margin-top: 3rem;
     text-align: center; /* Center the text inside the hero section */
     margin-bottom: 3rem; /* Add spacing below the hero section */
 }

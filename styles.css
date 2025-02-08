@@ -55,6 +55,7 @@ a.image-link p {
     padding: 20px;
     margin-top: 1rem; /* Add spacing above the text */
     transition: color 0.3s ease; /* Smooth color transition on hover */
+    text-decoration: none;
 }
 
 /* Add hover effect for the <p> tag */
