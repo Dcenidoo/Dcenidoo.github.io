@@ -92,7 +92,7 @@ h3 {
   color: #fff;
 }
 .dates li.today::before {
-  content: "";
+  content: none;
   width: 2rem;
   height: 2rem;
   position: absolute;
@@ -110,6 +110,7 @@ h3 {
 footer {
     margin-top: 2rem;
     margin-bottom: 4rem;
+    text-align: center;
     display: flex; /* Use flexbox to align buttons */
     gap: 4rem; /* Add spacing between buttons */
 }
