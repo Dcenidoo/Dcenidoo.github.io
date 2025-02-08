@@ -52,16 +52,17 @@ main img {
 a.image-link {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Inherit text color */
+    display: inline-block; /* Ensure the <a> tag behaves as a block */
 }
 
 a.image-link p {
     font-size: 1.5rem; /* Increase the font size for the paragraph */
-    font-style: bold;
+    font-weight: bold; /* Make the text bold */
     color: #e91e63; /* Pink color for Valentine's theme */
     padding: 20px;
     margin-top: 1rem; /* Add spacing above the text */
     transition: color 0.3s ease; /* Smooth color transition on hover */
-    text-decoration: none !important;
+    text-decoration: none; /* Ensure no underline */
 }
 
 /* Add hover effect for the <p> tag */
