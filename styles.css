@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    padding: 2rem; /* Add some padding around the body */
+    background: #ffebee; /* Add a light pink background for a Valentine's theme */
+}
+
+.hero {
+    text-align: center; /* Center the text inside the hero section */
+    margin-bottom: 2rem; /* Add spacing below the hero section */
+}
+
+.hero-container h1 {
+    font-size: 3rem; /* Increase the font size for the heading */
+    color: #c62828; /* Red color for Valentine's theme */
+    margin-bottom: 1rem; /* Add spacing below the heading */
+}
+
+.hero-container p {
+    font-size: 1.5rem; /* Increase the font size for the paragraph */
+    color: #e91e63; /* Pink color for Valentine's theme */
+}
+
+main {
+    text-align: center; /* Center the image */
+    padding: 2rem; /* Add padding around the main section */
+    background: white; /* White background for the main section */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+main img {
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners to the image */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .hero-container h1 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .hero-container p {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+
+    main {
+        padding: 1rem; /* Less padding on smaller screens */
+    }
+}
