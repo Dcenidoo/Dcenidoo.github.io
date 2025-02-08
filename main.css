@@ -10,7 +10,6 @@ body {
     flex-direction: column;
     align-items: center; /* Center content horizontally */
     justify-content: center; /* Center content vertically */
-    min-height: 100vh; /* Ensure the body takes up the full viewport height */
     padding: 2rem; /* Add some padding around the body */
     background: #ffebee; /* Add a light pink background for a Valentine's theme */
 }
@@ -44,12 +43,12 @@ main img {
     border-color: #e91e63;
 }
 
-main footer {
+footer {
     margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
-main footer button {
+footer button {
     padding: 1rem 2rem;
     font-size: 1.2rem;
     border: #e91e63;
