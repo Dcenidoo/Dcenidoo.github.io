@@ -26,7 +26,7 @@ body {
     margin-bottom: 4rem; /* Add spacing below the heading */
 }
 
-.hero-container p {
+.hero-container h2 {
     font-size: 2.5rem; /* Increase the font size for the paragraph */
     color: #e91e63; /* Pink color for Valentine's theme */
     margin-left: 50px;
