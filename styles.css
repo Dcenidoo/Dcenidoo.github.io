@@ -32,6 +32,12 @@ body {
     margin-left: 50px;
     margin-right: 50px;
 }
+.hero-container p {
+    font-size: 1.25rem; /* Increase the font size for the paragraph */
+    color: #e91e63; /* Pink color for Valentine's theme */
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 main {
     text-align: center; /* Center the image */
