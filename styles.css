@@ -24,6 +24,7 @@ body {
     font-size: 3rem; /* Increase the font size for the heading */
     color: #c62828; /* Red color for Valentine's theme */
     margin-bottom: 4rem; /* Add spacing below the heading */
+    max-width: 70vh;
 }
 
 .hero-container p {
@@ -55,7 +56,7 @@ a.image-link p {
     padding: 20px;
     margin-top: 1rem; /* Add spacing above the text */
     transition: color 0.3s ease; /* Smooth color transition on hover */
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 /* Add hover effect for the <p> tag */
