@@ -61,6 +61,18 @@ body {
     display: block; /* Remove extra space below the image */
 }
 
+.image-label {
+    position: absolute; /* Position the label relative to the gallery item */
+    bottom: 10px; /* Distance from the bottom */
+    left: 10px; /* Distance from the left */
+    color: white; /* Text color */
+    font-size: 1.2rem; /* Font size */
+    font-weight: bold; /* Bold text */
+    background-color: rgba(233, 30, 99, 0.7); /* Semi-transparent pink background */
+    padding: 0.5rem 1rem; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners for the label */
+}
+
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .container h1 {
