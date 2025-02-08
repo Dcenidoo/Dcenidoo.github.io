@@ -36,7 +36,7 @@ body {
     grid-template-rows: repeat(2, 1fr); /* 2 rows */
     gap: 1.5rem; /* Spacing between grid items */
     max-width: 800px; /* Limit the gallery width */
-    max-height: 1100px;
+    max-height: 800px;
     margin: 0 auto; /* Center the gallery */
 }
 
