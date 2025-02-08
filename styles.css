@@ -81,8 +81,12 @@ a.image-link:hover p {
         font-size: 2rem; /* Smaller font size for mobile */
     }
 
-    .hero-container p {
+    .hero-container h2 {
         font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+
+    .hero-container p {
+        font-size: 0.8rem; /* Smaller font size for mobile */
     }
 
     main {
