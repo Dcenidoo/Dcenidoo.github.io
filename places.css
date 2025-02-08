@@ -46,7 +46,8 @@ body {
     border-radius: 10px; /* Rounded corners */
     overflow: hidden; /* Ensure the image stays within the border */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
-    aspect-ratio: 1 / 1; /* Ensure the container is square */   
+    aspect-ratio: 1 / 1; /* Ensure the container is square */
+    position: relative; /* Make the container a positioning context for the label */
 }
 
 .gallery-item:hover {
