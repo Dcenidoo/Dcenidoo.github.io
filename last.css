@@ -50,21 +50,10 @@ footer {
     gap: 4rem; /* Add spacing between buttons */
 }
 
-footer button {
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    border: 3px solid #e91e63; /* Add a border to the buttons */
-    color: #e91e63; /* Text color */
-    background: white; /* Button background color */
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effect */
-}
-
-/* Add hover effect for the buttons */
-footer button:hover {
-    background-color: #e91e63; /* Change background color on hover */
-    color: white; /* Change text color on hover */
+footer p {
+    font-size: 3rem; /* Increase the font size for the heading */
+    color: #c62828; /* Red color for Valentine's theme */
+    margin-bottom: 1rem; /* Add spacing below the heading */
 }
 
 /* Responsive design for smaller screens */

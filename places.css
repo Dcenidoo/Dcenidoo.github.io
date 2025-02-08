@@ -64,13 +64,15 @@ body {
 .image-label {
     position: absolute; /* Position the label relative to the gallery item */
     bottom: 10px; /* Distance from the bottom */
-    left: 10px; /* Distance from the left */
+    left: 50%; /* Center the label horizontally */
+    transform: translateX(-50%); /* Adjust for exact centering */
     color: white; /* Text color */
     font-size: 1.2rem; /* Font size */
     font-weight: bold; /* Bold text */
     background-color: rgba(233, 30, 99, 0.7); /* Semi-transparent pink background */
     padding: 0.5rem 1rem; /* Padding around the text */
     border-radius: 5px; /* Rounded corners for the label */
+    white-space: nowrap; /* Prevent text from wrapping */
 }
 
 /* Responsive design for smaller screens */
