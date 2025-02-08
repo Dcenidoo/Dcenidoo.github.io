@@ -48,6 +48,7 @@ main img {
 
 a.image-link p {
     font-size: 1.5rem; /* Increase the font size for the paragraph */
+    font-style: bold;
     color: #e91e63; /* Pink color for Valentine's theme */
     padding: 20px;
     margin-top: 1rem; /* Add spacing above the text */

@@ -15,21 +15,17 @@ body {
     background: #ffebee; /* Add a light pink background for a Valentine's theme */
 }
 
-.hero {
+container {
     text-align: center; /* Center the text inside the hero section */
     margin-bottom: 2rem; /* Add spacing below the hero section */
 }
 
-.hero-container h1 {
-    font-size: 3rem; /* Increase the font size for the heading */
+.container h1 {
+    font-size: 5rem; /* Increase the font size for the heading */
     color: #c62828; /* Red color for Valentine's theme */
     margin-bottom: 1rem; /* Add spacing below the heading */
 }
 
-.hero-container p {
-    font-size: 1.5rem; /* Increase the font size for the paragraph */
-    color: #e91e63; /* Pink color for Valentine's theme */
-}
 
 main {
     text-align: center; /* Center the image */
