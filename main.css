@@ -15,9 +15,9 @@ body {
     background: #ffebee; /* Add a light pink background for a Valentine's theme */
 }
 
-container {
+.container {
     text-align: center; /* Center the text inside the hero section */
-    margin-bottom: 2rem; /* Add spacing below the hero section */
+    margin-bottom: 3rem; /* Add spacing below the hero section */
 }
 
 .container h1 {

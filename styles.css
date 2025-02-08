@@ -17,7 +17,7 @@ body {
 
 .hero {
     text-align: center; /* Center the text inside the hero section */
-    margin-bottom: 2rem; /* Add spacing below the hero section */
+    margin-bottom: 4rem; /* Add spacing below the hero section */
 }
 
 .hero-container h1 {
@@ -29,6 +29,8 @@ body {
 .hero-container p {
     font-size: 2.5rem; /* Increase the font size for the paragraph */
     color: #e91e63; /* Pink color for Valentine's theme */
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 main {
